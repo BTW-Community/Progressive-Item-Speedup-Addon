@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "pisa",
+  "version": "${version}",
+
+  "name": "Progressive Item Speedup Addon",
+  "description": "Speeds up the world when knitting and doing similar things.",
+  "authors": [
+    "Arminias"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "init": [
+    ]
+  },
+  "mixins": [
+    "pisa.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
