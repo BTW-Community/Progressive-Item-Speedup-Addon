@@ -5,3 +5,5 @@ The longer you continuously craft, the faster you and the world around you get. 
 Roughly saves 50-65% of the (real-)time when crafting progressive items in one go. Be careful though, as e.g. enemies will also move faster!
 
 Have fun!
+
+(Requires CE 2.1.2+!)
