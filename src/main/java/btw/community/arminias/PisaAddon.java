@@ -7,7 +7,7 @@ public class PisaAddon extends BTWAddon {
     private static PisaAddon instance;
 
     private PisaAddon() {
-        super("Progressive Item Speedup", "0.1.0", "PISA");
+        super("Progressive Item Speedup", "0.1.1", "PISA");
     }
 
     @Override
