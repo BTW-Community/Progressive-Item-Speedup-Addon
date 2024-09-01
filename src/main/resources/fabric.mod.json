@@ -19,6 +19,9 @@
   "environment": "*",
   "entrypoints": {
     "init": [
+    ],
+    "btw:addon": [
+      "btw.community.arminias.PisaAddon"
     ]
   },
   "mixins": [

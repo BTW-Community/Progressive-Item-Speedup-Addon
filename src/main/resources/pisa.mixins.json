@@ -5,12 +5,12 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "EntityPlayerMixin",
-    "EntityPlayerSPMixin",
-    "GuiIngameMixin",
     "ProgressiveCraftingItemMixin",
     "ProgressiveItemSubclassMixin"
   ],
   "client": [
+    "EntityPlayerSPMixin",
+    "GuiIngameMixin"
   ],
   "injectors": {
     "defaultRequire": 1
