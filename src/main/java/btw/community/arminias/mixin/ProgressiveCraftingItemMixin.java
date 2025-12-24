@@ -1,6 +1,6 @@
 package btw.community.arminias.mixin;
 
-import btw.item.items.*;
+import api.item.items.ProgressiveCraftingItem;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.server.MinecraftServer;
@@ -35,5 +35,11 @@ public abstract class ProgressiveCraftingItemMixin extends Item {
     public void onPlayerStoppedUsing(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer, int par4) {
         super.onPlayerStoppedUsing(par1ItemStack, par2World, par3EntityPlayer, par4);
         par3EntityPlayer.resetTimerSpeedModifier();
+    }
+
+    @Override
+    public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer) {
+        par3EntityPlayer.resetTimerSpeedModifier();
+        return super.onEaten(par1ItemStack, par2World, par3EntityPlayer);
     }
 }

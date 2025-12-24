@@ -1,7 +1,7 @@
 package btw.community.arminias;
 
-import btw.AddonHandler;
-import btw.BTWAddon;
+import api.AddonHandler;
+import api.BTWAddon;
 
 public class PisaAddon extends BTWAddon {
     public PisaAddon() {

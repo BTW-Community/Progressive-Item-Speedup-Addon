@@ -1,6 +1,6 @@
 package btw.community.arminias.mixin;
 
-import btw.item.items.ProgressiveCraftingItem;
+import api.item.items.ProgressiveCraftingItem;
 import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.InventoryPlayer;
 import net.minecraft.src.ItemStack;
