@@ -27,6 +27,8 @@ public abstract class EntityPlayerSPMixin extends EntityPlayer {
         if (!this.sleeping && this.mc.getTimer().getTimerSpeed() > 1.0F) {
             this.prevTimerSpeed = (float) ((double) this.prevTimerSpeed + (double) (this.mc.getTimer().getTimerSpeed() - this.prevTimerSpeed) * 0.03D);
             var1 *= (float) Math.pow(this.prevTimerSpeed, 0.33);
+        } else {
+            this.prevTimerSpeed = 1.0F;
         }
         return var1;
     }
